@@ -23,7 +23,7 @@ const ComponentNavbar = () => {
 
       {/* logo aparecerá quando a tela diminuir (Responsivo) */}
       <div className='Logo-Dashboard'>
-        <img src={logo} alt="Gran cursos Online" style={{ width: 'auto' }} />
+        <img src={logo} alt="Ignição Online" style={{ width: 'auto' }} />
       </div>
 
       <Navbar expand="sm" variant="dark">

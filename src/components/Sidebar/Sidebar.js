@@ -20,7 +20,7 @@ const Sidebar = () => {
       <div className='Body-Sidebar'>
 
         <div className='Logo'>
-          <img src={logo} alt="Gran cursos Online" style={{ width: '100%' }} />
+          <img src={logo} alt="Ignição Online" style={{ width: '100%' }} />
         </div>
 
           <div>
