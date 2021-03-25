@@ -1,0 +1,86 @@
+.navbar {
+  justify-content: space-between;
+  background-color: #4a3f35;
+}
+
+.Icon-Left {
+  margin-left: 1em;
+  color: #fff;
+}
+
+.Icon-Left:hover {
+  color: #ff7b1b;
+  cursor: pointer;
+}
+
+.Div-Right {
+  display: flex;
+  align-items: center;
+  color: #fff;
+
+  .Icon-Right {
+    margin-left: 1em;
+  }
+
+  .Icon-Right:hover {
+    color: #ff7b1b;
+    cursor: pointer;
+  }
+
+  .Info {
+    display: flex;
+    margin-left: 1em;
+  }
+
+  .NameAvatar {
+    display: block;
+    color: #ff7b1b;
+  }
+
+  span {
+    color: #fff;
+  }
+
+  .Avatar {
+    margin-left: 0.2em;
+    color: #fff;
+  }
+
+  .NameAvatar:hover,
+  .Avatar:hover {
+    cursor: pointer;
+  }
+}
+
+.Logo-Dashboard {
+  display: none;
+  justify-content: center;
+  margin: 1em;
+}
+
+@media (max-width: 1200px) {
+  .Logo-Dashboard {
+    display: flex;
+  }
+
+  .Icons-Left {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 613px) {
+  .Icons-Left {
+    justify-content: center;
+  }
+  .Icons-Right {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    height: 33vh;
+    justify-content: center;
+  }
+}

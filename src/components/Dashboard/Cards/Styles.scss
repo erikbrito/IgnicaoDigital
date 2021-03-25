@@ -1,0 +1,154 @@
+.Title-Filters {
+  font-weight: 900;
+  color: #505f79;
+}
+
+.card {
+  display: flex;
+  width: 100%;
+  min-width: 244px;
+  flex-direction: row;
+  margin: 1em 0;
+
+  .Title {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Group-Filters {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.125);
+    padding-bottom: 1rem;
+
+    .Text-Filters {
+      display: flex;
+      justify-content: space-between;
+      margin: 5px 0;
+    }
+  }
+
+  span {
+    color: "#505F79";
+  }
+
+  .checked {
+    color: orange;
+  }
+
+  .Button-Clean {
+    margin-top: 1em;
+    width: 100%;
+    background-color: #ff000a;
+    border-color: #ff000a;
+  }
+
+  .Button-Clean:hover,
+  .Button-Clean:active,
+  .Button-Clean:focus,
+  .Button-Clean:visited,
+  .show > .btn-primary.dropdown-toggle:focus {
+    background-color: #ff343b !important;
+    border-color: #ff343b !important;
+    background-image: none !important;
+    box-shadow: 0 0 0.2rem rgba(255, 52, 59, 0.5) !important;
+  }
+}
+
+.Img-Card {
+  margin: 1em;
+}
+
+.text-muted {
+  color: #b3bac5;
+}
+
+.card-text {
+  color: #6b778c;
+}
+
+.Footer-Card {
+  border-left: 2px solid rgba(0, 0, 0, 0.125);
+
+  .Footer-Container {
+    margin: 1em;
+    text-align: center;
+  }
+
+  .Div-Rating {
+    display: flow-root;
+
+    .Button-Rating {
+      float: right;
+      margin-bottom: 1em;
+      background-color: #ffab00;
+      border-color: #ffab00;
+    }
+
+    .Button-Rating:hover {
+      background-color: #eea109;
+      border-color: #eea109;
+    }
+  }
+
+  .Buttons-Cards {
+    margin-top: 2em;
+
+    .Button-Loved,
+    .Button-Shop {
+      width: max-content;
+      margin: 0.4em;
+    }
+
+    .Icon-Button-Card {
+      margin: 0 0.5em;
+    }
+
+    .Button-Loved {
+      background-color: #f4f5f7;
+      border-color: #f4f5f7;
+    }
+
+    .Button-Loved:hover,
+    .Button-Loved:active,
+    .Button-Loved:focus,
+    .Button-Loved:visited,
+    .show > .btn-primary.dropdown-toggle:focus {
+      background-color: #ebecf0 !important;
+      border-color: #ebecf0 !important;
+      background-image: none !important;
+      box-shadow: 0 0 0.2rem rgba(235, 236, 240, 0.5) !important;
+    }
+
+    .Button-Shop {
+      background-color: #36b37e;
+      border-color: #36b37e;
+    }
+
+    .Button-Shop:hover,
+    .Button-Shop:active,
+    .Button-Shop:focus,
+    .Button-Shop:visited,
+    .show > .btn-primary.dropdown-toggle:focus {
+      background-color: #26a872 !important;
+      border-color: #26a872 !important;
+      background-image: none !important;
+      box-shadow: 0 0 0.2rem rgba(38, 168, 114, 0.5) !important;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .card {
+    display: block;
+  }
+
+  .Img-Card {
+    width: -webkit-fill-available;
+  }
+
+  .Footer-Card {
+    border-top: 2px solid rgba(0, 0, 0, 0.125);
+    border-left: none;
+  }
+}

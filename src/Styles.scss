@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,200&display=swap');
+
+.App {
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Sidebar {
+  background-color: #4a3f35;
+}
+
+.Container-Body {
+  position: relative;
+  padding: 2em;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  background-color: #F4F5F7;
+  width: 100vw;
+}
+
+@media(max-width: 1200px) {
+
+  .Sidebar {
+    display: none;
+  }
+
+}

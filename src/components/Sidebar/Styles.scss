@@ -1,0 +1,72 @@
+.Body-Sidebar {
+  width: 265px;
+  height: 100%;
+  padding: 2em;
+}
+
+.Logo {
+  margin-bottom: 2em;
+}
+
+.dropdown-custom-1,
+.show > .dropdown-toggle.btn-primary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #ff7b1b;
+  border-color: #ff7b1b;
+
+  div {
+    display: flex;
+
+    span {
+      margin-left: 1em;
+    }
+  }
+}
+
+.dropdown-custom-1:hover,
+.dropdown-custom-1:active,
+.dropdown-custom-1:focus,
+.dropdown-custom-1:visited,
+.show > .btn-primary.dropdown-toggle:focus {
+  background-color: #ff9f5b !important;
+  border-color: #ff9f5b !important;
+  background-image: none !important;
+  box-shadow: 0 0 0.2rem rgba(255, 159, 91, 0.5) !important;
+}
+
+.btn-primary.dropdown-toggle:focus,
+.btn-primary.dropdown-toggle:active {
+  background-color: #ff4301;
+  border-color: #ff4301;
+}
+
+.super-colors {
+  width: 100%;
+}
+
+.Divs-Sidebar {
+  margin-top: 4em;
+  color: #fff;
+
+  .Titles-Sidebar {
+    font-weight: 500;
+  }
+
+  div {
+    font-weight: 600;
+    margin-top: 1em;
+  }
+
+  .Icon-Sidebar {
+    margin-right: 0.5em;
+  }
+  
+  .Menu:hover {
+    color: #ff7b1b;
+    cursor: pointer;
+  }
+
+}
