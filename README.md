@@ -1,7 +1,9 @@
-# Getting Started with Create React App
+# Esse projeto foi criado utilizando React, Sass, React-Bootstrap e Icones da Font Awesome.
 
-Esse projeto foi criado utilizando React, Sass, React-Bootstrap e Icones da Font Awesome.
 
+O projeto também foi hospedado no heroku e você pode acessar nesse link:
+
+[https://testeignicaodigital.herokuapp.com/](https://testeignicaodigital.herokuapp.com/)
 ## Available Scripts
 
 Para rodar o projeto execute os seguintes passos:
